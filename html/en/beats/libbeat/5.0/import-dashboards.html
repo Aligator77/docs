@@ -72,13 +72,13 @@
 	   
 
     <!-- css -->
-    <link href="https://static-www.elastic.co/static/css/main.css?q=222" rel="stylesheet">
+    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=222" rel="stylesheet">
     
     
 
-    <script src="https://static-www.elastic.co/static/js/jquery.min.js?q=222"></script>
-    <script src="https://static-www.elastic.co/static/js/bootstrap.min.js?q=222"></script>
-    <script src="https://static-www.elastic.co/static/js/jquery.cookie.js?q=222"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=222"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=222"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=222"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -121,7 +121,7 @@
       </script>
 
 	
-	<link type="text/css" rel="stylesheet" href="https://static-www.elastic.co/static/css/guide.css?q=222" />
+	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=222" />
 
 
   
@@ -191,7 +191,7 @@
           <div class="navbar-brand" id="elastic">
             <h1>
               <a class="logo-m hidden-sm hidden-md hidden-lg" href="/">
-                <img src="https://static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=222" alt="elastic-logo-mobile">
+                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=222" alt="elastic-logo-mobile">
               </a>
             </h1>
           </div>
@@ -240,7 +240,7 @@
       <div class="navbar-brand hidden-xs" id="elastic">
         <h1>
           <a class="hidden-xs" id="elastic-logo" href="/">
-            <img src="https://static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=222" alt="elastic-logo">
+            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=222" alt="elastic-logo">
           </a>
         </h1>
       </div>
@@ -377,15 +377,15 @@
 <style> 
     
       .m-shortcuts li a.m-search {
-        background: url("https://static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=222") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=222") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-docs {
-        background: url("https://static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=222") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=222") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-contact {
-        background: url("https://static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=222") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=222") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
     
@@ -550,7 +550,7 @@
            
           <a href="build-dashboards.html">Building your Own Dashboards
                »
-            </a></span></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="import-dashboards"></a>Importing Existing Beat Dashboards<a href="https://github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>You can use the <code class="literal">import_dashboards</code> script to import all the dashboards and the index pattern for a Beat, including the dependencies such as visualizations and searches.
+            </a></span></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="import-dashboards"></a>Importing Existing Beat Dashboards<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>You can use the <code class="literal">import_dashboards</code> script to import all the dashboards and the index pattern for a Beat, including the dependencies such as visualizations and searches.
 The <code class="literal">import_dashboards</code> script is available under
 <a class="ulink" href="https://github.com/elastic/beats/tree/master/libbeat/dashboards" target="_top">beats/libbeat/dashboards</a>, and it’s copied in each Beat package under the <code class="literal">scripts</code> directory.</p><p>Using the <code class="literal">import_dashboards</code> script, you can import the dashboards and the index pattern to
 Elasticsearch running on localhost for a single Beat (eg. Metricbeat):</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
@@ -631,10 +631,10 @@ Options:
   -url string
         URL to the zip archive containing the Beats dashboards (default "https://download.elastic.co/beats/dashboards/beats-dashboards-5.0.0-alpha6.zip")
   -user string
-        Username to connect to Elasticsearch. By default no username is passed.</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_es"></a>es<a href="https://github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The Elasticsearch URL. The default value is <a class="ulink" href="http://localhost:9200" target="_top">http://localhost:9200</a>.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_user"></a>user<a href="https://github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The username for authenticating the connection to Elasticsearch by using Basic Authentication. By default no username and password are used.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_pass"></a>pass<a href="https://github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The password for authenticating the connection to Elasticsearch by using Basic Authentication. By default no username and password are used.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_k"></a>k<a href="https://github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The Elasticsearch index pattern where Kibana saves its configuration. The default value is <code class="literal">.kibana</code>.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_i"></a>i<a href="https://github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>You should only use this option if you want to change the index pattern name that’s used by default. For example, if the
-default is <code class="literal">metricbeat-*</code>, you can change it to <code class="literal">custombeat-*</code>.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_only_dashboards"></a>only-dashboards<a href="https://github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>If specified, then only the dashboards, along with their visualizations and searches, are imported. The index pattern is
-not imported. By default is false.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_only_index"></a>only-index<a href="https://github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>If specified, then only the index pattern is imported. The dashboards, along with their visualizations and searches, are not imported. By default is false.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_dir"></a>dir<a href="https://github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>Local directory that contains the subdirectories: dashboard, visualization, search and index-pattern. The default value is the current directory.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_file"></a>file<a href="https://github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>Local zip archive with the dashboards. The archive can contain Kibana dashboards for a single Beat or for multiple Beats.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_url"></a>url<a href="https://github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>Zip archive with the dashboards, available online. The archive can contain Kibana dashboards for a single Beat or for
-multiple Beats.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_beat"></a>beat<a href="https://github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The Beat name, and it’s required when importing from a zip archive. When using the <code class="literal">import_dashboards</code> from the Beat package, this option is set automatically with the name of
+        Username to connect to Elasticsearch. By default no username is passed.</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_es"></a>es<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The Elasticsearch URL. The default value is <a class="ulink" href="http://localhost:9200" target="_top">http://localhost:9200</a>.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_user"></a>user<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The username for authenticating the connection to Elasticsearch by using Basic Authentication. By default no username and password are used.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_pass"></a>pass<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The password for authenticating the connection to Elasticsearch by using Basic Authentication. By default no username and password are used.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_k"></a>k<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The Elasticsearch index pattern where Kibana saves its configuration. The default value is <code class="literal">.kibana</code>.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_i"></a>i<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>You should only use this option if you want to change the index pattern name that’s used by default. For example, if the
+default is <code class="literal">metricbeat-*</code>, you can change it to <code class="literal">custombeat-*</code>.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_only_dashboards"></a>only-dashboards<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>If specified, then only the dashboards, along with their visualizations and searches, are imported. The index pattern is
+not imported. By default is false.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_only_index"></a>only-index<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>If specified, then only the index pattern is imported. The dashboards, along with their visualizations and searches, are not imported. By default is false.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_dir"></a>dir<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>Local directory that contains the subdirectories: dashboard, visualization, search and index-pattern. The default value is the current directory.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_file"></a>file<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>Local zip archive with the dashboards. The archive can contain Kibana dashboards for a single Beat or for multiple Beats.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_url"></a>url<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>Zip archive with the dashboards, available online. The archive can contain Kibana dashboards for a single Beat or for
+multiple Beats.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_beat"></a>beat<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/5.0/libbeat/docs/newdashboards.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The Beat name, and it’s required when importing from a zip archive. When using the <code class="literal">import_dashboards</code> from the Beat package, this option is set automatically with the name of
 the Beat. When running the script from source, the default value is "", so you need to set this option in order to install the index pattern and
 the dashboards for a single Beat. Otherwise it imports the index pattern and the dashboards for all Beats.</p></div></div><div class="navfooter"><span class="prev"><a href="new-dashboards.html">
               « 
@@ -958,38 +958,38 @@ the dashboards for a single Beat. Otherwise it imports the index pattern and the
 <style type="text/css">
 	
     
-		.facebook{background:url("https://static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=222") no-repeat;}
+		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=222") no-repeat;}
     
     
-      .facebook:hover {background:url("https://static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=222")}		
-    
-	
-    
-		.twitter{background:url("https://static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=222") no-repeat;}
-    
-    
-      .twitter:hover {background:url("https://static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=222")}		
+      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=222")}		
     
 	
     
-		.linkedin{background:url("https://static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=222") no-repeat;}
+		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=222") no-repeat;}
     
     
-      .linkedin:hover {background:url("https://static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=222")}		
-    
-	
-    
-		.xing{background:url("https://static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=222") no-repeat;}
-    
-    
-      .xing:hover {background:url("https://static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=222")}		
+      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=222")}		
     
 	
     
-		.youtube{background:url("https://static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=222") no-repeat;}
+		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=222") no-repeat;}
     
     
-      .youtube:hover {background:url("https://static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=222")}		
+      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=222")}		
+    
+	
+    
+		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=222") no-repeat;}
+    
+    
+      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=222")}		
+    
+	
+    
+		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=222") no-repeat;}
+    
+    
+      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=222")}		
     
 	
 </style>
@@ -1021,10 +1021,10 @@ the dashboards for a single Beat. Otherwise it imports the index pattern and the
 	var suggestionsUrl = "https://search.elastic.co/suggest";	
 	var localeUrl = '{"relative_url_prefix":"/","code":"en-us","url":"/guide_template"}';
 </script>
-<script src="https://static-www.elastic.co/static/js/jquery.autocomplete.js?q=222"></script>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/slick.min.js?q=222"></script>
-<script src="https://static-www.elastic.co/static/js/nav-v5.js?q=222"></script>
-<script src="https://static-www.elastic.co/static/js/script.js?q=222"></script> 
+<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=222"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=222"></script>
+<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=222"></script>
+<script src="https://stag-static-www.elastic.co/static/js/script.js?q=222"></script> 
      
      <style></style>
      

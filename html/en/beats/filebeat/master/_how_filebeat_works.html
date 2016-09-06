@@ -72,13 +72,13 @@
 	   
 
     <!-- css -->
-    <link href="https://static-www.elastic.co/static/css/main.css?q=222" rel="stylesheet">
+    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=222" rel="stylesheet">
     
     
 
-    <script src="https://static-www.elastic.co/static/js/jquery.min.js?q=222"></script>
-    <script src="https://static-www.elastic.co/static/js/bootstrap.min.js?q=222"></script>
-    <script src="https://static-www.elastic.co/static/js/jquery.cookie.js?q=222"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=222"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=222"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=222"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -121,7 +121,7 @@
       </script>
 
 	
-	<link type="text/css" rel="stylesheet" href="https://static-www.elastic.co/static/css/guide.css?q=222" />
+	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=222" />
 
 
   
@@ -191,7 +191,7 @@
           <div class="navbar-brand" id="elastic">
             <h1>
               <a class="logo-m hidden-sm hidden-md hidden-lg" href="/">
-                <img src="https://static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=222" alt="elastic-logo-mobile">
+                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=222" alt="elastic-logo-mobile">
               </a>
             </h1>
           </div>
@@ -240,7 +240,7 @@
       <div class="navbar-brand hidden-xs" id="elastic">
         <h1>
           <a class="hidden-xs" id="elastic-logo" href="/">
-            <img src="https://static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=222" alt="elastic-logo">
+            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=222" alt="elastic-logo">
           </a>
         </h1>
       </div>
@@ -377,15 +377,15 @@
 <style> 
     
       .m-shortcuts li a.m-search {
-        background: url("https://static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=222") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=222") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-docs {
-        background: url("https://static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=222") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=222") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-contact {
-        background: url("https://static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=222") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=222") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
     
@@ -553,17 +553,17 @@ Not what you want? See the
            
           <a href="filebeat-command-line.html">Command Line Options
                »
-            </a></span></div><div class="chapter"><div class="titlepage"><div><div><h1 class="title"><a id="_how_filebeat_works"></a>How Filebeat works<a href="https://github.com/elastic/beats/edit/master/filebeat/docs/how-filebeat-works.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h1></div></div></div><p>This page intends to explain what the key building blocks of Filebeat are and how they work together. The goal is that the available configuration options can be better understood and more informed decisions can be made about the optimal configuration options for the different use cases.</p><h3><a id="_what_is_a_harvester"></a>What is a harvester?<a href="https://github.com/elastic/beats/edit/master/filebeat/docs/how-filebeat-works.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>A harvester is responsible to read the content of a single file. This is done by reading each file line by line and send the content to the output. For each file one harvester is started. The harvester is responsible to open and close files. That means, as long as a harvester is running, the file descriptor stays open. Even if a file is removed or renamed, filebeat will keep reading the file. This has the side affect that the space on your disk will be reserved until the harvester is stopped.</p><p>Stopping a harvester has the following consequences:</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
+            </a></span></div><div class="chapter"><div class="titlepage"><div><div><h1 class="title"><a id="_how_filebeat_works"></a>How Filebeat works<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/master/filebeat/docs/how-filebeat-works.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h1></div></div></div><p>This page intends to explain what the key building blocks of Filebeat are and how they work together. The goal is that the available configuration options can be better understood and more informed decisions can be made about the optimal configuration options for the different use cases.</p><h3><a id="_what_is_a_harvester"></a>What is a harvester?<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/master/filebeat/docs/how-filebeat-works.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>A harvester is responsible to read the content of a single file. This is done by reading each file line by line and send the content to the output. For each file one harvester is started. The harvester is responsible to open and close files. That means, as long as a harvester is running, the file descriptor stays open. Even if a file is removed or renamed, filebeat will keep reading the file. This has the side affect that the space on your disk will be reserved until the harvester is stopped.</p><p>Stopping a harvester has the following consequences:</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
 The file handler is closed, freeing up the underlying resources if the file was deleted
 </li><li class="listitem">
 The harvesting of the file will only be started again after <code class="literal">scan_frequency</code>
 </li><li class="listitem">
 In case the file was moved / removed, harvesting the file will not continue
-</li></ul></div><p>To define more in detail when a harvester is closed, use the <a class="xref" href="configuration-filebeat-options.html#close-options" title="close_*">close_*</a> configuration options.</p><h3><a id="_what_is_a_prospector"></a>What is a prospector?<a href="https://github.com/elastic/beats/edit/master/filebeat/docs/how-filebeat-works.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>A prospector is reponsible to manage the harvesters.  The responsibility of the prospector is to find all sources it should read from. In case of the log input type it is to find all files on the drive based on the defined paths and start a harvester for each file that was found. Each prospector runs in its own go routine and is responsible to manage the harvesters. Each prospector configuration looks as following:</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-yaml">filebeat.prospectors:
+</li></ul></div><p>To define more in detail when a harvester is closed, use the <a class="xref" href="configuration-filebeat-options.html#close-options" title="close_*">close_*</a> configuration options.</p><h3><a id="_what_is_a_prospector"></a>What is a prospector?<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/master/filebeat/docs/how-filebeat-works.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>A prospector is reponsible to manage the harvesters.  The responsibility of the prospector is to find all sources it should read from. In case of the log input type it is to find all files on the drive based on the defined paths and start a harvester for each file that was found. Each prospector runs in its own go routine and is responsible to manage the harvesters. Each prospector configuration looks as following:</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-yaml">filebeat.prospectors:
 - input_type: log
   paths:
     - /var/log/*.log
-    - /var/path2/*.log</pre></div><p>Filebeat currently supports two <code class="literal">prospector</code> types: <code class="literal">log</code> and <code class="literal">stdin</code>. Each prospector type can be defined multiple times. The log prospector checks for each file if a harvester has to be started, if one is already running or the file can be ignored because of configuration options which were set. New files are only picked up, if the offset / size of the file changed since the harvester was closed.</p><h3><a id="_what_is_a_state"></a>What is a state?<a href="https://github.com/elastic/beats/edit/master/filebeat/docs/how-filebeat-works.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>Filebeat keeps the state of each file and frequently flushes the state to disk to the registry file. The state is used to remember the last offset a harvester was reading from and to ensure all log lines are sent. In case Elasticsearch/Logstash are not reachable, Filebeat will keep track of the last lines sent and will continue reading the files as soon Elasicsearch/Logstash becomes available again. As long as filebeat is running, the state information is also kept in memory by each prospector. In case of a filebeat restart, the data from the registry file is used to rebuild the state and filebeat continues each harvester at the last known position.</p><p>Each prospector keeps a state for each file it finds. As files can be renamed or moved, the filename and path are not enough to identify a file. For each file unique identifiers are stored to detect if a file the same file that was harvested previously.</p><p>For more details on how to configure the state, checkout out the <a class="xref" href="reduce-registry-size.html" title="Reduce Registry File Size"><em>Reduce Registry File Size</em></a> troubleshooting guide.</p></div><div class="navfooter"><span class="prev"><a href="_step_6_loading_the_kibana_index_pattern.html">
+    - /var/path2/*.log</pre></div><p>Filebeat currently supports two <code class="literal">prospector</code> types: <code class="literal">log</code> and <code class="literal">stdin</code>. Each prospector type can be defined multiple times. The log prospector checks for each file if a harvester has to be started, if one is already running or the file can be ignored because of configuration options which were set. New files are only picked up, if the offset / size of the file changed since the harvester was closed.</p><h3><a id="_what_is_a_state"></a>What is a state?<a href="https://esdocs:Aid8mu3aN2E9p@github.com/elastic/beats/edit/master/filebeat/docs/how-filebeat-works.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>Filebeat keeps the state of each file and frequently flushes the state to disk to the registry file. The state is used to remember the last offset a harvester was reading from and to ensure all log lines are sent. In case Elasticsearch/Logstash are not reachable, Filebeat will keep track of the last lines sent and will continue reading the files as soon Elasicsearch/Logstash becomes available again. As long as filebeat is running, the state information is also kept in memory by each prospector. In case of a filebeat restart, the data from the registry file is used to rebuild the state and filebeat continues each harvester at the last known position.</p><p>Each prospector keeps a state for each file it finds. As files can be renamed or moved, the filename and path are not enough to identify a file. For each file unique identifiers are stored to detect if a file the same file that was harvested previously.</p><p>For more details on how to configure the state, checkout out the <a class="xref" href="reduce-registry-size.html" title="Reduce Registry File Size"><em>Reduce Registry File Size</em></a> troubleshooting guide.</p></div><div class="navfooter"><span class="prev"><a href="_step_6_loading_the_kibana_index_pattern.html">
               « 
               Step 6: Loading the Kibana Index Pattern</a>
            
@@ -885,38 +885,38 @@ In case the file was moved / removed, harvesting the file will not continue
 <style type="text/css">
 	
     
-		.facebook{background:url("https://static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=222") no-repeat;}
+		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=222") no-repeat;}
     
     
-      .facebook:hover {background:url("https://static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=222")}		
-    
-	
-    
-		.twitter{background:url("https://static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=222") no-repeat;}
-    
-    
-      .twitter:hover {background:url("https://static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=222")}		
+      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=222")}		
     
 	
     
-		.linkedin{background:url("https://static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=222") no-repeat;}
+		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=222") no-repeat;}
     
     
-      .linkedin:hover {background:url("https://static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=222")}		
-    
-	
-    
-		.xing{background:url("https://static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=222") no-repeat;}
-    
-    
-      .xing:hover {background:url("https://static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=222")}		
+      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=222")}		
     
 	
     
-		.youtube{background:url("https://static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=222") no-repeat;}
+		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=222") no-repeat;}
     
     
-      .youtube:hover {background:url("https://static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=222")}		
+      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=222")}		
+    
+	
+    
+		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=222") no-repeat;}
+    
+    
+      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=222")}		
+    
+	
+    
+		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=222") no-repeat;}
+    
+    
+      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=222")}		
     
 	
 </style>
@@ -948,10 +948,10 @@ In case the file was moved / removed, harvesting the file will not continue
 	var suggestionsUrl = "https://search.elastic.co/suggest";	
 	var localeUrl = '{"relative_url_prefix":"/","code":"en-us","url":"/guide_template"}';
 </script>
-<script src="https://static-www.elastic.co/static/js/jquery.autocomplete.js?q=222"></script>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/slick.min.js?q=222"></script>
-<script src="https://static-www.elastic.co/static/js/nav-v5.js?q=222"></script>
-<script src="https://static-www.elastic.co/static/js/script.js?q=222"></script> 
+<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=222"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=222"></script>
+<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=222"></script>
+<script src="https://stag-static-www.elastic.co/static/js/script.js?q=222"></script> 
      
      <style></style>
      
